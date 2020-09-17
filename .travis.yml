@@ -4,6 +4,7 @@ services:
 
 before_install:
   - chmod +x docker_push.sh
+  - chmod +x gradlew
 
 deploy:
   provider: script
